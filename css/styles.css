@@ -19,7 +19,7 @@
      font-weight: 800;
      line-height: 1.17em;
      letter-spacing: 0.03em;
-     text-transform: uppercase;
+     text-transform: uppercase;  
  }
 
  .inside-logo {
@@ -29,6 +29,12 @@
      font-weight: 800;
      line-height: 1.5em;
      letter-spacing: 0.02em;
+ }
+ .logo-style-link {
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
  }
 
  .link {
