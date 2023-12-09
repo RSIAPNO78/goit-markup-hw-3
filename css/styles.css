@@ -4,6 +4,7 @@
      --mynavyblue-color: #2e2f42;
      --irish: #4d5ae5;
      --cloud: #F4F4FD;
+     --cornflower: #E7E9FC;
  }
 
  body {
@@ -29,23 +30,30 @@
      font-weight: 800;
      line-height: 1.5em;
      letter-spacing: 0.02em;
+     display: inline-flex;
+     align-items: flex-start;
+     gap: 40px;
  }
  .logo-style-link {
     display: inline-flex;
     height: 24px;
     align-items: center;
     flex-shrink: 0;
+    margin: 24px, 1169px, 24px, 156px;
  }
 
  .link {
      text-decoration: none;
  }
+ .style-list {
+    list-style: none;
+ }
 
- .list .link-style {
+ .style-list .link-style {
      color: var(--mynavyblue-color);
  }
 
- .liststyle .list {
+ .liststyle .style-list {
      font-weight: 500;
      line-height: 1.5em;
      letter-spacing: 0.02em;
@@ -67,22 +75,25 @@
      line-height: 1.5em;
      letter-spacing: 0.02em;
  }
+.contact-list {
+    list-style: none;
+}
 
  .address-style .contact-color {
      color: var(--mytextcolor-color)
  }
 
- .list .contact-color:hover,
+ .contact-list .contact-color:hover,
  .link-style:hover {
      color: #404bbf;
  }
 
- .list .contact-color:focus,
+ .contact-list .contact-color:focus,
  .link-style:focus {
      color: #404bbf;
  }
 
- .list .contact-color:active,
+ .contact-list .contact-color:active,
  .link-style:active {
      color: #31D0AA;
  }
@@ -352,3 +363,64 @@
 .list .row1-card {
     text-decoration: none;
 }
+
+/* Header LOGO*/
+
+header .container {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1128px;
+    margin:0, auto;
+}
+
+.logo-style-link {
+    display: flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: center;
+    margin-left: 156px;
+    margin-right: 40px;
+    gap: 40px;
+}
+.style-list {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.first-section-header {
+    width: 1128px;
+    height: 120px;
+    flex-shrink: 0;
+    padding-top: 188px;
+    padding-bottom: 292px;
+    padding-left: 472px;
+    display: flex;
+    text-align: center;
+    margin: 0, auto;
+}
+.first-section-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+
+
+
+
+
