@@ -395,26 +395,31 @@ header .container {
     gap: 40px;
 }
 .first-section-header {
-    width: 1128px;
-    height: 120px;
+    width: 496px;
     flex-shrink: 0;
-    padding-top: 188px;
-    padding-bottom: 292px;
-    padding-left: 472px;
+    padding: 188px, 0;
     display: flex;
     text-align: center;
     margin: 0, auto;
 }
 .first-section-button {
-    display: flex;
+    display: block;
     justify-content: center;
     text-align: center;
+    width: 169px;
+    height: 56px;
     padding: 16px 32px;
     gap: 10px;
+    border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-
+.first-section-button {
+    background-color: var(--irish);
+}
+.first-section-button {
+    cursor: pointer;
+}
 
 
 
