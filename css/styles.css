@@ -365,17 +365,23 @@
 }
 
 /* Header LOGO*/
-
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+}
 header .container {
     display: flex;
     justify-content: center;
-    border-bottom: #e7e9fc;
+    width: 1158px;
+        padding: 0 15px;
+        display: flex;
+        margin: 0 auto;
 }
 .container {
     width: 1158px;
-    margin:0, auto;
-    padding: 0 15px;
-    display: flex;
+        padding: 0 15px;
+        display: flex;
+        margin: 0 auto;
 }
 
 .liststyle {
@@ -383,19 +389,21 @@ header .container {
     align-items: center;
     justify-content: space-between;
     padding: 24px 0;
+    margin-right: 76px;
+    margin-left: 156px;
 }
 
 .logo-style-link {
     display: flex;
     height: 24px;
     align-items: center;
-    flex-shrink: 0;
-    margin-right: 76px;
 }
 
-.contact-list {
+.address-style .contact-list {
     display: flex;
     align-items: center;
+    padding: 24px 0;
+    margin-left: 104px;
     gap: 40px;
 }
 .style-list {
@@ -403,23 +411,25 @@ header .container {
     align-items: center;
     gap: 40px;
 }
-/* This is the HERO Section*/
+/* This is the FIRST SECTION - HERO Section*/
 
 .body {
     margin: 0;
 }
-.first-section {
+.first-section .container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 1440px;
+    height: 600px;
     max-width: 496px;
     padding: 188px 0;
     display: block;
     margin: o auto;
 }
 
-.first-section-button {
+.first-section .first-section-button {
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -440,7 +450,9 @@ header .container {
 list {
     list-style-type: none;
 }
+
 /* This is the SECOND Section*/
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -454,16 +466,34 @@ list {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.second-section .container {
-    flex-direction: row;
-    padding: 120px;
+.container .list {
+    display: flex;
+    align-items: flex-start;
     gap: 24px;
+    padding: 120px 0;
     width: calc((100% - 72px)/4);
     margin-bottom: 8px;
+}
+.list .second-section-header {
+    width: 264px;
+    height: 24px;
+}
+.list .second-section-paragraph {
+    width: 264px;
+    height: 72px;
+}
+.second-section .list {
+    gap: 24px;
 }
 
 /* Third Section*/
 
+.third-section .container .list {
+    display: flex;
+    width: 1128px;
+    height: 412px;
+    flex-shrink: 0;
+}
 .list {
     display: block;
     flex-direction: row;
@@ -477,6 +507,7 @@ list {
 
 .third-section .list {
     margin-bottom: 72px;
+    display: block;
 }
 .list {
     list-style-type: none;
@@ -484,19 +515,34 @@ list {
 
 /* This is the Forth Section*/
 
-.fourth-section {
+.fourth-section .container .list {
+    display: flex;
+    flex-shrink: 0;
     padding: 120px 0;
+    align-items: center;
     text-align: center;
-    margin-bottom: 8px;
-}
-.teammember-bgcolor .teammember-name {
     margin-bottom: 72px;
 }
+.list .teammember-bgcolor {
+    margin-bottom: 8px;
+}
+.fourth-section .fourth-section-header {
+    display: inline;
+    display: flex;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
 .fourth-section .list {
     flex-direction: row;
     gap: 24px;
     width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
+}
+.fourth-section .teammember-bgcolor .img {
+    display: block;
+
 }
 .container .list {
     padding: 32px 0;
@@ -508,10 +554,24 @@ list {
 /* This is the FOOTER SECTION */
 .footer-style {
     padding: 100px 0;
+    width: 1440px;
+    height: 312px;
+   
 }
-.footer-paragraph .logo-style-link {
+.logo-style-link {
+    margin-top: 140px;
+    margin-bottom: 100px;
+    margin-right: 1169px;
+    margin-left: 188px;
+}
+.footer-style .logo-style-link {
     display: inline;
     margin-bottom: 16px;
+}
+.container .footer-paragraph {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
 }
 
 
