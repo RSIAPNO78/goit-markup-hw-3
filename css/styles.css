@@ -364,10 +364,16 @@
     text-decoration: none;
 }
 
+/*This is the HOMEWORK 3 */
 /* Header LOGO*/
+
+.img {
+    display: block;
+}
 .header {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
+    padding: 24px 0;
 }
 header .container {
     display: flex;
@@ -378,10 +384,10 @@ header .container {
         margin: 0 auto;
 }
 .container {
+    display: flex;
     width: 1158px;
-        padding: 0 15px;
-        display: flex;
-        margin: 0 auto;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .liststyle {
@@ -389,20 +395,19 @@ header .container {
     align-items: center;
     justify-content: space-between;
     padding: 24px 0;
-    margin-right: 76px;
     margin-left: 156px;
 }
 
 .logo-style-link {
     display: flex;
     height: 24px;
+    margin-right: 76px;
     align-items: center;
 }
 
 .address-style .contact-list {
     display: flex;
     align-items: center;
-    padding: 24px 0;
     margin-left: 104px;
     gap: 40px;
 }
@@ -564,11 +569,12 @@ list {
     margin-right: 1169px;
     margin-left: 188px;
 }
-.footer-style .logo-style-link {
-    display: inline;
+.container .logo-style-link {
+    display: inline-block;
     margin-bottom: 16px;
 }
 .container .footer-paragraph {
+    width: 264px;
     display: flex;
     align-items: flex-start;
     text-align: left;
