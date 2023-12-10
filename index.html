@@ -10,13 +10,20 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
         rel="stylesheet">
+        <!--Visually Hidden link-->
+       <link href="https://gist.github.com/luxplanjay/6f6936b1bba7afe006fa9317b07b6045" rel="stylesheet" /> 
+
+        <!-- Normalizer first -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    
     <link rel="stylesheet" href="css/styles.css" />
 
     <title>My Second Homework!</title>
 
 </head>
-
 <body>
+
     <!--This is the Header-->
     <header class="header"> 
         <div class="container">
@@ -40,14 +47,18 @@
         </div>   
     </header>
 
-    <main>
+   
         <!--This is Hero--> 
         <section class="first-section">
-            <h1 class="first-section-header">Effective Solutions <br> for Your Business</h1>
-            <button class="first-section-button" type="button">Order Service </button>
-            </section>
+            <div class="container"> 
+              <h1 class="first-section-header">Effective Solutions <br> for Your Business</h1>
+              <button class="first-section-button" type="button">Order Service </button>
+            </div>
+        </section>
+
+    <main> 
             <!---This is Section 2-->
-            <section class="second-section">
+        <section class="second-section">
                 <h2> Body </h2>
         <div class="container">
                 <ul class="list">
@@ -76,9 +87,9 @@
                             problem-solving.</p>
                     </li>
                 </ul>
-        </div>   
-            
+        </div>       
         </section>
+
         <!--This is Section 3-->
         <section class="third-section">
             <h2 class="third-section-header">What Are We Doing</h2>
