@@ -63,7 +63,7 @@
      text-decoration: none;
  }
 
- .address-style {
+ .address-style-header {
      color: var(--mytextcolor-color);
      background-color: var(--white);
 
@@ -79,7 +79,7 @@
     list-style: none;
 }
 
- .address-style .contact-color {
+ .address-style-header .contact-color {
      color: var(--mytextcolor-color)
  }
 
@@ -379,9 +379,9 @@ header .container {
     display: flex;
     justify-content: center;
     width: 1158px;
-        padding: 0 15px;
-        display: flex;
-        margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    margin: 0 auto;
 }
 .container {
     display: flex;
@@ -394,18 +394,19 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 24px 0;
     margin-left: 156px;
+    margin-right: 76px;
 }
 
 .logo-style-link {
     display: flex;
     height: 24px;
-    margin-right: 76px;
     align-items: center;
-    padding: 24px 0;
+    margin-right: 76px;
 }
 
-.address-style .contact-list {
+.address-style-header .contact-list {
     display: flex;
     align-items: center;
     margin-left: 104px;
@@ -415,7 +416,6 @@ header .container {
 .style-list {
     display: flex;
     align-items: center;
-    padding: 24px 0;
     gap: 40px;
 }
 /* This is the FIRST SECTION - HERO Section*/
