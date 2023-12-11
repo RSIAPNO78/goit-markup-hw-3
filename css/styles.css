@@ -63,7 +63,7 @@
      text-decoration: none;
  }
 
- .address-style-header {
+ .address-style {
      color: var(--mytextcolor-color);
      background-color: var(--white);
 
@@ -79,21 +79,21 @@
     list-style: none;
 }
 
- .address-style-header .contact-color {
+ .address-style .contact-color {
      color: var(--mytextcolor-color)
  }
 
- .contact-list .contact-color:hover,
+ .address-contact-list .contact-color:hover,
  .link-style:hover {
      color: #404bbf;
  }
 
- .contact-list .contact-color:focus,
+ .address-contact-list .contact-color:focus,
  .link-style:focus {
      color: #404bbf;
  }
 
- .contact-list .contact-color:active,
+ .address-contact-list .contact-color:active,
  .link-style:active {
      color: #31D0AA;
  }
@@ -373,21 +373,21 @@
 .header {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
-    padding: 24px 0;
 }
-header .container {
+.header .container {
     display: flex;
     justify-content: center;
     width: 1158px;
     padding: 0 15px;
-    display: flex;
-    margin: 0 auto;
+    align-items: center;
+    gap: 40px;
 }
 .container {
     display: flex;
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    padding: 24px 0;
 }
 
 .liststyle {
@@ -395,29 +395,31 @@ header .container {
     align-items: center;
     justify-content: space-between;
     padding: 24px 0;
-    margin-left: 156px;
     margin-right: 76px;
 }
 
-.logo-style-link {
+.liststyle .logo-style-link {
     display: flex;
     height: 24px;
     align-items: center;
-    margin-right: 76px;
 }
 
-.address-style-header .contact-list {
+.address-style .address-contact-list {
     display: flex;
     align-items: center;
     margin-left: 104px;
     padding: 24px 0;
     gap: 40px;
+    list-style-type: none;
 }
+
 .style-list {
     display: flex;
     align-items: center;
+    padding: 24px 0;
     gap: 40px;
 }
+
 /* This is the FIRST SECTION - HERO Section*/
 
 .body {
@@ -430,10 +432,10 @@ header .container {
     text-align: center;
     width: 1440px;
     height: 600px;
-    max-width: 496px;
-    padding: 188px 0;
     display: block;
     margin: o auto;
+    padding: 188px 0;
+    max-width: 496px;
 }
 
 .first-section .first-section-button {
@@ -457,6 +459,7 @@ header .container {
 list {
     list-style-type: none;
 }
+
 
 /* This is the SECOND Section*/
 
@@ -520,6 +523,14 @@ list {
 .list .teammember-bgcolor {
     margin-bottom: 8px;
 }
+.container {
+    width: 1440px;
+    height: 732px;
+    flex-shrink: 0;
+}
+.fourth-section-header {
+    margin-top: 120px 639px 72px 639px;
+}
 .fourth-section .fourth-section-header {
     display: inline;
     display: flex;
@@ -550,6 +561,7 @@ list {
     padding: 100px 0;
     width: 1440px;
     height: 312px;
+    display: block;
 }
 
 .logo-style-link {
@@ -558,9 +570,9 @@ list {
 }
 .container .footer-paragraph {
     width: 264px;
-    display: flex;
+    height: 72px;
     align-items: flex-start;
-    text-align: left;
+    margin-bottom: 100px; 
 }
 
 
