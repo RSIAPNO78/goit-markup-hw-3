@@ -63,7 +63,7 @@
      text-decoration: none;
  }
 
- .address-style {
+ .address-style-list {
      color: var(--mytextcolor-color);
      background-color: var(--white);
 
@@ -79,7 +79,7 @@
     list-style: none;
 }
 
- .address-style .contact-color {
+ .address-style-list .contact-color {
      color: var(--mytextcolor-color)
  }
 
@@ -388,32 +388,46 @@ body {
 .header {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
-    height: 72px;
     justify-content: center;
-    width: 1158px;
-    padding: 0 15px;
+    width: 1440px;
+    height: 72px;
+    padding: 24px 0;
     align-items: center;
     flex-shrink: 0;
 }
- 
-.liststyle .logo-style-link  {
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.liststyle {
     display: flex;
     align-items: center;
+}
+
+.logo-style-link {
+    flex-direction: row;
+    display: inline-flex;
+    display: flex;
     height: 24px;
-    padding: 24px 0;
+    align-items: center;
     margin-right: 76px;
     margin-left: 156px;
 }
 
-.address-style .address-contact-list  {
-    align-items: center;
+.style-list {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+    margin-left: 76px;
+    margin-right: 332px;
+}
+
+.address-contact-list .contact-color {
+    display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 24px 0;
     gap: 40px;
-    padding: 24px 0;
-    gap: 40px;
-    list-style-type: none;
 }
 
 
