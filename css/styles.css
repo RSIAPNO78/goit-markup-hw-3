@@ -424,9 +424,10 @@ body {
     margin-right: 332px;
 }
 
-.address-contact-list .contact-color {
+.address-style-list .contact-color-link {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 40px;
 }
 
@@ -438,7 +439,7 @@ body {
     height: 600px;
     flex-shrink: 0;
 }
-.first-section.first-section-header {
+.first-section .container {
     width: 496px;
     height: 120px;
     padding: 188px 0;
@@ -446,18 +447,9 @@ body {
     display: flex;
     flex-direction: column;
     display: block;
+    margin-bottom: 48px;
 }
-.first-section .container {
-    display: flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 188px 0;
-    text-align: center;
-    padding: 188px 0;
-    height: 600px;
-}
+
 .first-section .first-section-button {
     display: block;
     text-align: center;
@@ -466,6 +458,7 @@ body {
     min-width: 169px;
     height: 56px;
     padding: 16px 32px;
+    margin-top: 48px;
     gap: 10px;
     border: none;
     border-radius: 4px;
@@ -534,6 +527,12 @@ list {
 
 /* This is the Forth Section*/
 
+.fourth-section {
+    width: 1440px;
+    height: 732px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
 .fourth-section .container .list {
     display: flex;
     flex-shrink: 0;
@@ -542,16 +541,26 @@ list {
     text-align: center;
 }
 .list .teammember-bgcolor {
+    padding: 32px 0;
+    gap: 32px;
+    width: 264px;
+    height: 348px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list .teammember-name {
     margin-bottom: 8px;
 }
 
 .fourth-section .fourth-section-header {
     display: flex;
-    text-align: center;
-    align-items: center;
-    text-align: center;
-    align-items: center;
     width: 162px;
+    height: 40px;
+    margin: 120px 639px 72px 639px;
+    margin: 0 auto;
 }
 
 .fourth-section .list {
@@ -561,6 +570,12 @@ list {
 }
 
 /* This is the FOOTER SECTION */
+
+.footer-style {
+    height: 312px;
+    margin-top: 120px;
+    margin: 0 auto;
+}
 .footer-style .container {
     padding: 100px 0;
     width: 1440px;
@@ -578,6 +593,7 @@ list {
     align-items: flex-start;
     margin-bottom: 100px; 
 }
+
 
 
 
