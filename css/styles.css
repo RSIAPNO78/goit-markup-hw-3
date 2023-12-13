@@ -496,6 +496,18 @@ list {
 }
 .second-section .list {
     gap: 24px;
+    width: 1128px;
+    height: 104px;
+    flex-shrink: 0;
+}
+
+.container .list {
+    display: flex;
+    width: 264px;
+    height: 104px;
+    flex-direction: row;
+    gap: 8px;
+    margin-bottom: 120px;
 }
 
 /* Third Section*/
@@ -505,14 +517,12 @@ list {
     width: 1128px;
     height: 412px;
     flex-shrink: 0;
-}
-.list {
-    display: block;
     flex-direction: row;
     padding: 120px 0;
     gap: 24px;
     width: calc((100% - 48px)/3);
 }
+
 .list {
     text-decoration: none;
 }
@@ -574,24 +584,24 @@ list {
 .footer-style {
     height: 312px;
     margin-top: 120px;
+    padding: 100px 0;
     margin: 0 auto;
 }
 .footer-style .container {
-    padding: 100px 0;
-    width: 1440px;
-    height: 312px;
-    display: block;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    display: inline-block;
 }
 
-.logo-style-link {
-    display: inline-block;
+.container .logo-style-link {
     margin-bottom: 16px;
 }
 .container .footer-paragraph {
     width: 264px;
     height: 72px;
     align-items: flex-start;
-    margin-bottom: 100px; 
+    margin-top: 16px;
 }
 
 
