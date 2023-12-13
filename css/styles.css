@@ -543,16 +543,14 @@ list {
     flex-shrink: 0;
     margin: 0 auto;
 }
-.fourth-section .container .list {
+.fourth-section .container {
     display: flex;
     flex-shrink: 0;
     padding: 120px 0;
     align-items: center;
     text-align: center;
 }
-.list .teammember-bgcolor {
-    padding: 32px 0;
-    gap: 32px;
+.fourth-section .list .teammember-bgcolor {
     width: 264px;
     height: 348px;
     display: inline-flex;
@@ -567,10 +565,20 @@ list {
 
 .fourth-section .fourth-section-header {
     display: flex;
+    text-align: center;
+    justify-content: center;
     width: 162px;
     height: 40px;
-    margin: 120px 639px 72px 639px;
+    margin-top: 120px;
+    margin-bottom: 72px;
     margin: 0 auto;
+}
+.card-content {
+    display: flex;
+    width: 232px;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px 0;
 }
 
 .fourth-section .list {
