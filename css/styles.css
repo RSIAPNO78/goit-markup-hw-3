@@ -367,81 +367,88 @@
 /*This is the HOMEWORK 3 */
 /* Header LOGO*/
 
-.img {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+li {
+    list-style: none;
+}
+
+img {
     display: block;
+    color:#434455;
+    background-color: var(--white);
+}
+body {
+    width: 1440px;
+    margin: 0 auto;
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
-}
-.header .container {
-    display: flex;
+    height: 72px;
     justify-content: center;
     width: 1158px;
     padding: 0 15px;
     align-items: center;
-    gap: 40px;
+    flex-shrink: 0;
 }
-.container {
-    display: flex;
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    padding: 24px 0;
-}
-
-.liststyle {
+ 
+.liststyle .logo-style-link  {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    height: 24px;
     padding: 24px 0;
     margin-right: 76px;
+    margin-left: 156px;
 }
 
-.liststyle .logo-style-link {
-    display: flex;
-    height: 24px;
+.address-style .address-contact-list  {
     align-items: center;
-}
-
-.address-style .address-contact-list {
-    display: flex;
+    flex-direction: row;
     align-items: center;
-    margin-left: 104px;
+    padding: 24px 0;
+    gap: 40px;
     padding: 24px 0;
     gap: 40px;
     list-style-type: none;
 }
 
-.style-list {
-    display: flex;
-    align-items: center;
-    padding: 24px 0;
-    gap: 40px;
-}
+
 
 /* This is the FIRST SECTION - HERO Section*/
 
-.body {
-    margin: 0;
+.first-section {
+    height: 600px;
+    flex-shrink: 0;
+}
+.first-section.first-section-header {
+    width: 496px;
+    height: 120px;
+    padding: 188px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    display: block;
 }
 .first-section .container {
+    display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 1440px;
-    height: 600px;
-    display: block;
-    margin: o auto;
     padding: 188px 0;
-    max-width: 496px;
+    text-align: center;
+    padding: 188px 0;
+    height: 600px;
 }
-
 .first-section .first-section-button {
     display: block;
     text-align: center;
     margin: 0 auto;
+    text-align: center;
     min-width: 169px;
     height: 56px;
     padding: 16px 32px;
@@ -468,7 +475,8 @@ list {
     align-items: flex-start;
     gap: 24px;
     padding: 120px 0;
-    width: calc((100% - 72px)/4);
+    gap: 24px;
+    padding: 120px 0;
     margin-bottom: 8px;
 }
 .list .second-section-header {
@@ -518,42 +526,24 @@ list {
     padding: 120px 0;
     align-items: center;
     text-align: center;
-    margin-bottom: 72px;
 }
 .list .teammember-bgcolor {
     margin-bottom: 8px;
 }
-.container {
-    width: 1440px;
-    height: 732px;
-    flex-shrink: 0;
-}
-.fourth-section-header {
-    margin-top: 120px 639px 72px 639px;
-}
+
 .fourth-section .fourth-section-header {
-    display: inline;
     display: flex;
-    display: block;
     text-align: center;
     align-items: center;
+    text-align: center;
+    align-items: center;
+    width: 162px;
 }
 
 .fourth-section .list {
-    flex-direction: row;
     gap: 24px;
     width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
-}
-.fourth-section .teammember-bgcolor .img {
-    display: block;
-
-}
-.container .list {
-    padding: 32px 0;
-}
-.fourth-section .list .teammember-position {
-    text-align: center;
 }
 
 /* This is the FOOTER SECTION */
