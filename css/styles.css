@@ -470,46 +470,33 @@ list {
 
 /* This is the SECOND Section*/
 
-.container .list {
+
+.list-features {
     display: flex;
-    align-items: flex-start;
+    flex-direction: row;
+    width: ((100% -72px)/4);
     gap: 24px;
     padding: 120px 0;
-    gap: 24px;
-    padding: 120px 0;
-    margin-bottom: 8px;
-}
-.list .second-section-header {
-    width: 264px;
-    height: 24px;
-}
-.list .second-section-paragraph {
-    width: 264px;
-    height: 72px;
-}
-.second-section .list {
-    gap: 24px;
-    width: 1128px;
-    height: 104px;
-    flex-shrink: 0;
+    margin-top: 8px;
 }
 
-.container .list {
-    display: flex;
-    width: 264px;
-    height: 104px;
-    flex-direction: row;
-    gap: 8px;
-    margin-bottom: 120px;
+.second-section-header {
+    margin-bottom: 8px;
+}
+
+.second-section {
+    background-color: #FFFFFF;
 }
 
 /* Third Section*/
 
+.third-section-header {
+    text-align: center;
+}
 .third-section .container .list {
     display: flex;
-    width: 1128px;
+    width: 1158px;
     height: 412px;
-    flex-shrink: 0;
     flex-direction: row;
     padding: 120px 0;
     gap: 24px;
