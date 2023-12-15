@@ -392,26 +392,27 @@ img {
 
 .nav-menu-liststyle {
     display: flex;
+    display: inline-flex;
+}
+
+.main-header-section {
+    display: flex;
     align-items: center;
-    padding: 0 15px;
-    margin-right: 76px;
+    justify-content: space-between;
 }
 
 .header { 
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 
 .style-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
-
 }
 
 .address-contact-list {
     display: flex;
-    display: inline-flex;
-    justify-content: space-between;
     gap: 40px;
 }
     
