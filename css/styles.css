@@ -13,7 +13,7 @@
      background-color: var(--white)
  }
 
- .logo-style {
+ .inside-logo-link {
      color: #4d5ae5;
      font-family: "Raleway", sans-serif;
      font-size: 18px;
@@ -23,7 +23,7 @@
      text-transform: uppercase;  
  }
 
- .inside-logo {
+ .studio {
      color: var(--mynavyblue-color);
      font-family: "Raleway", sans-serif;
      font-size: 18px;
@@ -31,12 +31,14 @@
      line-height: 1.5em;
      letter-spacing: 0.02em;
      display: inline-flex;
-     gap: 40px;
+     align-items: center;
+     top: 0;
+     left: 0;
  }
  .logo-style-link {
     display: inline-flex;
-    height: 24px;
     align-items: center;
+    flex-shrink: 0;
  }
 
  .style-list {
@@ -367,7 +369,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 .h1, h2, h3, h4, h5, h6, ul {
@@ -388,11 +390,12 @@ img {
 .container {
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .nav-menu-liststyle {
     display: flex;
-    display: inline-flex;
+    align-items: center;
 }
 
 .main-header-section {
@@ -404,6 +407,9 @@ img {
 .header { 
     border-bottom: 1px solid #e7e9fc;
     padding: 24px 0;
+}
+.studio {
+    margin-right: 76px;
 }
 
 .style-list {
@@ -424,9 +430,9 @@ img {
 
 .first-section {
     height: 600px;
-    flex-shrink: 0;
 }
-.first-section .container {
+
+.first-section-container {
     width: 496px;
     height: 120px;
     padding: 188px 0;
