@@ -514,21 +514,20 @@ list {
 
 /* This is the Forth Section*/
 
-
-.fourth-section .fourth-section-container {
+.fourth-section-container {
+    padding: 120px;
+    text-align: center;
+}
+.list-teams {
     display: flex;
+    gap: 24px;
+    width: calc((100% 72px)/4);
+    border-radius: 0px 0px 4px 4px;
     text-align: center;
     justify-content: center;
-    align-items: center;
-    padding: 120px 0;
-    width: 264px;
     height: 732px;
-    display: inline-flex;
     flex-direction: row;
-    gap: 24px;
-    width: calc((100% - 72px)/4);
-    border-radius: 0px 0px 4px 4px;
-    margin: 0 auto;
+    padding: 120px;
 }
 
 .list-teams .teammember-name {
@@ -536,16 +535,9 @@ list {
 }
 
 .fourth-section-header {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    height: 40px;
     margin-bottom: 72px;
 }
 
-.list-teams {
-    
-}
 .card-content {
     display: flex;
     text-align: center;
