@@ -369,7 +369,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: 0;
 }
 
 .h1, h2, h3, h4, h5, h6, ul {
@@ -514,19 +514,15 @@ list {
 
 /* This is the Forth Section*/
 
-.fourth-section {
-    height: 732px;
-    margin: 0 auto;
-}
 
-.fourth-section-header {
-    margin-bottom: 72px;
-}
-
-.fourth-section .list-teams {
+.fourth-section .fourth-section-container {
     display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 120px 0;
     width: 264px;
+    height: 732px;
     display: inline-flex;
     flex-direction: row;
     gap: 24px;
@@ -539,12 +535,16 @@ list {
     margin-bottom: 8px;
 }
 
-.fourth-section .fourth-section-header {
+.fourth-section-header {
     display: flex;
     text-align: center;
     justify-content: center;
     height: 40px;
     margin-bottom: 72px;
+}
+
+.list-teams {
+    
 }
 .card-content {
     display: flex;
