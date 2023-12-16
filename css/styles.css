@@ -527,7 +527,6 @@ list {
     display: flex;
     padding: 120px 0;
     width: 264px;
-    height: 348px;
     display: inline-flex;
     flex-direction: row;
     gap: 24px;
@@ -536,24 +535,20 @@ list {
     margin: 0 auto;
 }
 
-.list-teams .teammember-bgcolor {
-
-}
 .list-teams .teammember-name {
     margin-bottom: 8px;
 }
 
-.fourth-section-container .fourth-section-header {
+.fourth-section .fourth-section-header {
     display: flex;
     text-align: center;
-    width: 162px;
+    justify-content: center;
     height: 40px;
-    margin-top: 120px;
     margin-bottom: 72px;
-    margin: 0 auto;
 }
 .card-content {
     display: flex;
+    text-align: center;
     width: 232px;
     flex-direction: column;
     gap: 8px;
