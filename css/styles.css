@@ -490,63 +490,62 @@ list {
 
 /* Third Section*/
 
-.third-section-header {
-    text-align: center;
-}
-.third-section .container .list {
+.third-section .third-section-container {
     display: flex;
-    width: 1158px;
     height: 412px;
     flex-direction: row;
-    padding: 120px 0;
-    gap: 24px;
-    width: calc((100% - 48px)/3);
+    padding-bottom: 120px;
+    margin: 0 auto;
 }
 
-.list {
-    text-decoration: none;
-}
-
-.third-section .list {
+.third-section-header {
     margin-bottom: 72px;
-    display: block;
+    text-align: center;
 }
-.list {
-    list-style-type: none;
+
+.third-section .list-services {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    width: calc((100% - 48px)/3);
+    top: 112px;
+    gap: 24px;
 }
 
 /* This is the Forth Section*/
 
 .fourth-section {
-    width: 1440px;
     height: 732px;
-    flex-shrink: 0;
     margin: 0 auto;
 }
-.fourth-section .container {
-    display: flex;
-    flex-shrink: 0;
-    padding: 120px 0;
-    align-items: center;
-    text-align: center;
+
+.fourth-section-header {
+    margin-bottom: 72px;
 }
-.fourth-section .list .teammember-bgcolor {
+
+.fourth-section .list-teams {
+    display: flex;
+    padding: 120px 0;
     width: 264px;
     height: 348px;
     display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    gap: 24px;
+    width: calc((100% - 72px)/4);
+    border-radius: 0px 0px 4px 4px;
+    margin: 0 auto;
 }
 
-.list .teammember-name {
+.list-teams .teammember-bgcolor {
+
+}
+.list-teams .teammember-name {
     margin-bottom: 8px;
 }
 
-.fourth-section .fourth-section-header {
+.fourth-section-container .fourth-section-header {
     display: flex;
     text-align: center;
-    justify-content: center;
     width: 162px;
     height: 40px;
     margin-top: 120px;
@@ -561,11 +560,6 @@ list {
     padding: 32px 0;
 }
 
-.fourth-section .list {
-    gap: 24px;
-    width: calc((100% - 72px)/4);
-    border-radius: 0px 0px 4px 4px;
-}
 
 /* This is the FOOTER SECTION */
 
