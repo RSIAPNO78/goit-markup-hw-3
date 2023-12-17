@@ -13,7 +13,7 @@
      background-color: var(--white)
  }
 
- .inside-logo-link {
+ .nav-menu-liststyle .logo-style-link {
      color: #4d5ae5;
      font-family: "Raleway", sans-serif;
      font-size: 18px;
@@ -363,13 +363,16 @@
     text-decoration: none;
 }
 
+
+/*MAIN PAGE*/
+
 /*This is the HOMEWORK 3 */
 /* Header LOGO*/
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 .h1, h2, h3, h4, h5, h6, ul {
@@ -396,12 +399,12 @@ img {
 .nav-menu-liststyle {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.main-header-section {
+.container .main-header-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .header { 
@@ -471,7 +474,7 @@ list {
 /* This is the SECOND Section*/
 
 
-.list-features {
+.container .list-features {
     display: flex;
     flex-direction: row;
     width: ((100% -72px)/4);
@@ -486,6 +489,10 @@ list {
 
 .second-section {
     background-color: #FFFFFF;
+}
+
+.second-section-paragraph {
+    width: 264px;
 }
 
 /* Third Section*/
@@ -578,10 +585,8 @@ list {
 /* THIS IS MY PORTFOLIO/*
 
 
-
-
-
-
+/*This is the HOMEWORK 3 */
+/* Header LOGO*/
 
 
 
