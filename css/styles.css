@@ -4,7 +4,7 @@
      --mynavyblue-color: #2e2f42;
      --irish: #4d5ae5;
      --cloud: #F4F4FD;
-     --cornflower: #E7E9FC;
+     --cornflower: #efe9fc;
      --ocean: #404bbf;
  }
 
@@ -535,16 +535,20 @@ list {
     padding: 120px;
     text-align: center;
 }
+
+.teammember-bgcolor {
+    height: 380px;
+    width: 264px;
+}
 .list-teams {
     display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
     gap: 24px;
     width: calc((100% 72px)/4);
     border-radius: 0px 0px 4px 4px;
-    text-align: center;
-    justify-content: center;
-    height: 732px;
-    flex-direction: row;
-    padding: 120px;
+    margin-top: 72px;
 }
 
 .list-teams .teammember-name {
@@ -552,14 +556,16 @@ list {
 }
 
 .fourth-section-header {
-    margin-bottom: 72px;
+    height: 40px;
 }
 
 .card-content {
     display: flex;
     text-align: center;
-    width: 232px;
     flex-direction: column;
+    justify-content: center;
+    width: 232px;
+    height: 56px;
     gap: 8px;
     padding: 32px 0;
 }
@@ -567,7 +573,8 @@ list {
 
 /* This is the FOOTER SECTION */
 
-.footer-style {
+
+.container .footer-style-container {
     height: 312px;
     padding: 100px 0;
     align-items: center;
@@ -578,7 +585,8 @@ list {
     height: 112px;
     display: inline-block;
     margin: 0 auto;
-    margin-bottom: 16px;;
+    margin-bottom: 16px;
+    margin-top: 120px;
 }
 
 .footer-paragraph {
@@ -641,7 +649,7 @@ list {
     gap: 24px;
     height: 24px;
     margin-bottom: 72px;
-    margin-top: 96px;
+    padding-top: 96px;
 }
 
 .filter-button .button {
@@ -664,14 +672,14 @@ list {
     display: flex;
     justify-content: center;
     display: inline-flex;
-        padding: 12px 24px;
-        background-color: var(--ocean);
-        border-radius: 4px;
-        flex: 0 0 auto;
-        margin-top: -1px;
+    padding: 12px 24px;
+    background-color: var(--ocean);
+    border-radius: 4px;
+    flex: 0 0 auto;
+    margin-top: -1px;
 }
 
-/* THIS IS THE ROW 1 SECTION*/
+/* THIS IS THE ROW  SECTION*/
 
 .project-card-list {
     display: flex;
@@ -686,14 +694,18 @@ list {
 
 .card-content {
     display: flex;
-        flex-direction: column;
-        width: 360px;
-        align-items: flex-start;
-        justify-content: center;
-        gap: 8px;
-        padding: 0px 16px;
-        margin-top: 32px;
-        margin-bottom: 32px;
+    flex-direction: column;
+    width: 360px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+    padding: 0px 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.main {
+    padding-bottom: 120px;
 }
 
 /* THIS IS THE FOOTER */
@@ -703,7 +715,6 @@ list {
     padding: 100px 0;
     align-items: center;
     display: flex;
-    margin-top: 120px;
 }
 
 .footer-style .footer-style-container {
@@ -723,6 +734,8 @@ list {
 .logo-style-link {
     display: flex;
 }
+
+
 
 
 
