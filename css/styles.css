@@ -648,7 +648,7 @@ list {
     gap: 24px;
     height: 24px;
     margin-bottom: 72px;
-    padding-top: 96px;
+    margin-top: 96px;
 }
 
 .filter-button .button {
