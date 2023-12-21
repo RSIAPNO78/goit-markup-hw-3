@@ -6,6 +6,7 @@
      --cloud: #F4F4FD;
      --cornflower: #efe9fc;
      --ocean: #404bbf;
+     --cornflower: #efe9fc;
  }
 
  body {
@@ -645,7 +646,7 @@ list {
 }
 
 .container .main-header-section {
-    justify-content: space-between;;
+    justify-content: space-between;
 }
 
 .main-header-section .studio {
@@ -660,8 +661,18 @@ list {
 .nav-menu-liststyle {
     display: flex;
     align-items: center;
+    padding: 24px 0;
+}
+
+.main-header-section .link-style-link {
+    display: flex;
     gap: 40px;
     padding: 24px 0;
+}
+
+.address-contact-list {
+    display: flex;
+    gap: 40px;
 }
 
 
@@ -669,12 +680,17 @@ list {
 /*FILTER SECTION*/
 
 
-.filter-section .filter-button {
+
+.filter-button {
+    gap: 40px;
+}
+
+.filter-button {
     display: flex;
     text-align: center;
     justify-content: center;
-    gap: 24px;
-    padding-bottom: 120px;
+    height: 24px;
+    padding-bottom: 72px;
     padding-top: 96px;
 }
 
@@ -682,6 +698,7 @@ list {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    padding: 12px 24px;
     position: relative;
     flex: 0 0 auto;
     background-color: var(--cloud);
@@ -693,11 +710,13 @@ list {
 }
 
 .filter-button .filter-button-active {
-    color:#FFFFFF;
+    color: #FFFFFF;
+    padding: 12px 24px;
     align-items: center;
     display: flex;
     justify-content: center;
     display: inline-flex;
+    padding: 12px 24px;
     background-color: var(--ocean);
     border-radius: 4px;
     flex: 0 0 auto;
@@ -705,6 +724,7 @@ list {
     height: 48px;
     padding: 12px 24px;
 }
+
 
 /* THIS IS THE ROW  SECTION*/
 
