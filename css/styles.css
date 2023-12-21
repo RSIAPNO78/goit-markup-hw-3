@@ -147,7 +147,7 @@
  }
 
  /*This is Section 2*/
- .list .second-section-header {
+ .list-features .second-section-header {
      color: var(--mynavyblue-color);
 
      /* Header 3 */
@@ -159,7 +159,7 @@
      letter-spacing: 0.02em;
  }
 
- .list .second-section-paragraph {
+ .list-features .second-section-paragraph {
      color: var(--mytextcolor-color);
 
      /* Body */
@@ -405,37 +405,37 @@ img {
 }
 
 
-.container .main-header-section { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 24px 0;
-}
-
 .nav-menu-liststyle {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.container .main-header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    align-items: center;
     justify-content: center;
 }
 
-.logo-style-link {
-    margin-right: 76px;
-    display: inline-flex;
-    align-items: center;
-}
+.studio { 
+        margin-right: 76px;
+    }
 
-.style-list {
-    display: flex;
-    gap: 40px;
-    display: inline-flex;
-    align-items: center;
-    padding: 24px 0;
-}
+    .style-list {
+        display: flex;
+        gap: 40px;
+    }
 
-.address-contact-list {
-    display: flex;
-    gap: 40px;
-}
+    .address-contact-list {
+        display: flex;
+        gap: 40px;
+    }
 
 
 
@@ -459,14 +459,11 @@ img {
 }
 
 .first-section-container {
-    width: 496px;
-    height: 120px;
+    max-width: 496px;
     padding: 188px 0;
-    text-align: center;
     display: flex;
     flex-direction: column;
     display: block;
-    margin-bottom: 48px;
 }
 
 .first-section .first-section-button {
@@ -481,8 +478,8 @@ img {
     gap: 10px;
     border: none;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
 .first-section-button {
     background-color: var(--irish);
 }
@@ -499,7 +496,7 @@ list {
 .visually-hidden {
     overflow: hidden;
 }
-.container .list-features {
+.list-features {
     display: flex;
     flex-direction: row;
     width: ((100% -72px)/4);
@@ -546,9 +543,9 @@ list {
 
 /* This is the Forth Section*/
 
-.container {
-    padding: 120px 0;
+.fourth-section-ourteam .container {
     text-align: center;
+    padding: 120px;
 }
 
 .team-member-bgcolor {
@@ -637,13 +634,13 @@ list {
     height: 72px;
 }
 
-.logo-style-link .studio {
+.main-header-section .studio {
     margin-right: 76px;
     color: #2e2f42;
     justify-content: space-between;
 }
 
-.logo-style-link .inside-logo-link {
+.main-header-section .inside-logo-link {
     color: #4d5ae5;
 }
 
