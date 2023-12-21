@@ -75,7 +75,7 @@
      line-height: 1.5em;
      letter-spacing: 0.02em;
  }
-.contact-list {
+.address-contact-list {
     list-style: none;
 }
 
@@ -187,7 +187,7 @@
  }
 
  /*This is Section 4 */
- .fourth-section {
+ .fourth-section-ourteam {
      background-color: #F4F4FD;
  }
 
@@ -205,11 +205,11 @@
      text-align: center;
  }
 
- .teammember-bgcolor {
+ .team-member-bgcolor {
      background-color: #FFFFFF;
  }
 
- .teammember-name {
+ .team-member-name {
      color: #2e2f42;
 
      /* Header 3 */
@@ -222,7 +222,7 @@
      letter-spacing: 0.02em;
  }
 
- .teammember-position {
+ .team-member-position {
      color: #434455;
 
 
@@ -402,38 +402,40 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    justify-content: space-between;
+}
+
+
+.container .main-header-section { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
 }
 
 .nav-menu-liststyle {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
-.container .main-header-section {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-.header {  
-        border-bottom: 1px solid #e7e9fc;
-        padding: 24px 0;
-    }
-
-.container .studio {
-        margin-right: 76px;
-    }
+.logo-style-link {
+    margin-right: 76px;
+    display: inline-flex;
+    align-items: center;
+}
 
 .style-list {
-        gap: 40px;
-    }
+    display: flex;
+    gap: 40px;
+    display: inline-flex;
+    align-items: center;
+    padding: 24px 0;
+}
 
 .address-contact-list {
-        display: flex;
-        gap: 40px;
-    }
-
+    display: flex;
+    gap: 40px;
+}
 
 
 
@@ -544,41 +546,48 @@ list {
 
 /* This is the Forth Section*/
 
-.fourth-section-container {
+.container {
     padding: 120px 0;
     text-align: center;
 }
 
-.teammember-bgcolor {
+.team-member-bgcolor {
     height: 380px;
     width: 264px;
+    width: calc((100% 72px)/4);
+    border-radius: 0px 0px 4px 4px;
 }
-.list-teams {
+.list-our-teams {
     display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: row;
-    gap: 24px;
-    width: calc((100% 72px)/4);
-    border-radius: 0px 0px 4px 4px;
-    margin-top: 72px;
+    gap: 24px;   
 }
 
-.list-teams .teammember-name {
+.team-member-name {
+    text-align: center;
     margin-bottom: 8px;
+}
+
+.team-member-position {
+    text-align: center;
 }
 
 .fourth-section-header {
     height: 40px;
+    margin-bottom: 72px;
 }
 
-.card-content {
-    display: flex;
+.card-content-name {
     text-align: center;
     width: 232px;
     height: 56px;
-    gap: 8px;
     padding: 32px 0;
+}
+
+.fourth-section-ourteam {
+    background-color: #F4F4FD;
 }
 
 
