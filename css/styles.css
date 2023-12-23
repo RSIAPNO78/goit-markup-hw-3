@@ -409,34 +409,40 @@ img {
 .nav-menu-liststyle {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
-.container .main-header-section {
+.main-header-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 24px 0;
 }
 
 .header {
     border-bottom: 1px solid #e7e9fc;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    height: 72px;
 }
 
-.studio { 
-        margin-right: 76px;
-    }
+.logo-style .studio {
+    margin-right: 76px;
+}
 
-    .style-list {
-        display: flex;
-        gap: 40px;
-    }
+.style-list {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+}
 
-    .address-contact-list {
-        display: flex;
-        gap: 40px;
-    }
+.address-contact-list {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+}
 
 
 
@@ -635,36 +641,37 @@ list {
     padding: 0 15px;
 }
 
-.container .main-header-section {
-    display: flex;
-    align-items: center;
-}
-
-.header {
-    border-bottom: 1px solid #e7e9fc;
-    height: 72px;
-}
-
-.container .main-header-section {
-    justify-content: space-between;
-}
-
-.main-header-section .studio {
-    margin-right: 76px;
-    color: #2e2f42;
-}
-
-.main-header-section .inside-logo-link {
-    color: #4d5ae5;
-}
 
 .nav-menu-liststyle {
     display: flex;
     align-items: center;
+}
+
+.main-header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0 auto;
     padding: 24px 0;
 }
 
-.main-header-section .link-style-link {
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 72px;
+}
+
+.logo-style {
+    padding: 24px 0;
+}
+.logo-style .studio {
+    margin-right: 76px;
+}
+
+.style-list {
     display: flex;
     gap: 40px;
     padding: 24px 0;
@@ -673,23 +680,26 @@ list {
 .address-contact-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 
 
 /*FILTER SECTION*/
 
-
-
-.filter-button {
-    gap: 40px;
+.main {
+    padding-bottom: 120px;
 }
 
 .filter-button {
+    gap: 24px;
     display: flex;
     text-align: center;
     justify-content: center;
     height: 24px;
+}
+
+.filter-section {
     padding-bottom: 72px;
     padding-top: 96px;
 }
@@ -703,10 +713,17 @@ list {
     flex: 0 0 auto;
     background-color: var(--cloud);
     border-radius: 4px;
-    border: 1px solid;
-    border-color: var(--cornflower);
+    border: 1px solid var(--cornflower);
     height: 48px;
     padding: 12px 24px;
+}
+
+.filter-button:hover {
+    border: #FFFFFF;
+}
+
+.filter-button:focus {
+    border: #FFFFFF;
 }
 
 .filter-button .filter-button-active {
@@ -723,6 +740,14 @@ list {
     margin-top: -1px;
     height: 48px;
     padding: 12px 24px;
+}
+
+.filter-button .filter-button-active:hover {
+    border: #FFFFFF;
+}
+
+.filter-button .filter-button-active:focus {
+    border: #FFFFFF;
 }
 
 
