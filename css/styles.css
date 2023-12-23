@@ -431,7 +431,7 @@ img {
     margin: 0 auto;
 }
 
-.logo-style .studio {
+.logo-style {
     margin-right: 76px;
 }
 
@@ -453,7 +453,7 @@ img {
 
 .first-section {
     height: 600px;
-    padding: 188px 0;
+    display: flex;
 }
 
 .visually-hidden {
@@ -473,23 +473,23 @@ img {
     max-width: 496px;
     display: flex;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
-.first-section-container {
+.first-section .first-section-container {
     display: flex;
     flex-direction: column;
     display: block;
+    padding: 188px 0;
 }
 
-.first-section .first-section-button {
+.first-section-button {
     display: block;
-    text-align: center;
     margin: 0 auto;
-    text-align: center;
+    align-items: center;
     min-width: 169px;
     height: 56px;
     padding: 16px 32px;
-    margin-top: 48px;
     gap: 10px;
     border: none;
     border-radius: 4px;
@@ -501,7 +501,7 @@ img {
 .first-section-button {
     cursor: pointer;
 }
-list {
+.list {
     list-style-type: none;
 }
 
@@ -517,10 +517,9 @@ list {
     width: ((100% -72px)/4);
     gap: 24px;
     padding: 120px 0;
-    margin-top: 8px;
 }
 
-.second-section-header {
+.list-features .second-section-header {
     margin-bottom: 8px;
 }
 
@@ -534,7 +533,12 @@ list {
 
 /* Third Section*/
 
-.third-section .third-section-container {
+
+.third-section {
+    height: 492px;
+}
+
+.third-section-container {
     display: flex;
     height: 412px;
     flex-direction: row;
@@ -547,7 +551,7 @@ list {
     text-align: center;
 }
 
-.list-services {
+.third-section .list-services {
     text-decoration: none;
     display: inline-flex;
     align-items: center;
@@ -558,9 +562,15 @@ list {
 
 /* This is the Forth Section*/
 
-.fourth-section-ourteam .container {
+.fourth-section-ourteam {
     text-align: center;
-    padding: 120px;
+    padding: 120px 0;
+    height: 732px;
+}
+
+.fourth-section-container {
+    height: 452px;
+    width: 1158px;
 }
 
 .team-member-bgcolor {
@@ -569,12 +579,13 @@ list {
     width: calc((100% 72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
+
 .list-our-teams {
     display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: row;
-    gap: 24px;   
+    gap: 24px;
 }
 
 .team-member-name {
@@ -670,7 +681,7 @@ list {
 .logo-style {
     padding: 24px 0;
 }
-.logo-style .studio {
+.logo-style {
     margin-right: 76px;
 }
 
