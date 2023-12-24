@@ -32,13 +32,11 @@
      font-weight: 800;
      line-height: 1.5em;
      letter-spacing: 0.02em;
-     display: inline-flex;
      align-items: center;
      top: 0;
      left: 0;
  }
  .logo-style-link {
-    display: inline-flex;
     align-items: center;
     flex-shrink: 0;
  }
@@ -437,14 +435,19 @@ img {
 
 .style-list {
     display: flex;
-    gap: 40px;
     padding: 24px 0;
 }
 
-.address-contact-list {
-    display: flex;
+.link-style {
     gap: 40px;
+}
+
+.address-contact-list {
     padding: 24px 0;
+}
+
+.contact-color {
+    gap: 40px;
 }
 
 
